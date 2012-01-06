@@ -1,0 +1,6 @@
+en:
+  fancy_captcha:
+    label: "captcha"
+    change: "changing a picture"
+    message: "Secret Code did not match with the Image"
+

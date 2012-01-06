@@ -1,0 +1,10 @@
+<br/>
+
+<%= label_tag captcha[:label_text] %>
+<%= text_field_tag captcha[:field_name] %>
+<%= hidden_field_tag captcha[:key_name], captcha[:key], :id => captcha[:key_id] %>
+<%= image_tag captcha[:img_src], :id => captcha[:img_id], :alt => captcha[:label_text] %>
+<%= link_to captcha[:change_text], captcha[:change_url], :remote => true %>
+
+<br/>
+

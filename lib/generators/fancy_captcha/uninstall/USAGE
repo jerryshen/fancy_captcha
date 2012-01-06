@@ -1,0 +1,6 @@
+Description:
+    Remove FancyCaptcha files to your application.
+
+Example:
+    rails generate fancy_captcha:uninstall
+

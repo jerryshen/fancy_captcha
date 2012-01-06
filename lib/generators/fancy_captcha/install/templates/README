@@ -1,0 +1,18 @@
+===============================================================================
+
+Some setup you must do manually:
+
+  1. Modify captcha images directory in config/initializers/fancy_captcha.rb.
+     For example:
+
+       config.images_path = Rails.root.join("public", "captcha_images").to_s
+
+  2. Generate captcha images.
+
+       # bundle exec rake fancy_captcha:generate_images[100]
+
+
+Homepage: https://github.com/vkill/fancy_captcha
+by: vkill
+===============================================================================
+
